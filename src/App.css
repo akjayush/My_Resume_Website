@@ -1,0 +1,101 @@
+/* src/App.css */
+.app {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Adjust the component styles as needed */
+.component {
+  padding: 20px;
+  flex: 1;
+  /* Take remaining width */
+}
+
+/* Example for Home component style */
+.home {
+  background-color: #f5f5f5;
+}
+
+/* Example for other components */
+.about {
+  background-color: #f9f9f9;
+}
+
+.services {
+  background-color: #f5f5f5;
+}
+
+.portfolio {
+  background-color: #f9f9f9;
+}
+
+.contact {
+  background-color: #f5f5f5;
+}
+
+.blog {
+  background-color: #f9f9f9;
+}
+
+/* src/App.css */
+.animated-text {
+  display: flex;
+  font-size: 24px;
+}
+
+.animated-text span::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: #0074d9;
+  /* Adjust the color as needed */
+  display: block;
+  margin: 0 8px;
+  transition: width 0.5s;
+}
+
+.animated-text span:hover::after,
+.animated-text span:focus::after {
+  width: 100%;
+}
+
+/* src/App.css */
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+  padding: 20px;
+}
+
+/* Rest of your CSS styles */
